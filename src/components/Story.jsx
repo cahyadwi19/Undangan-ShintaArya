@@ -2,10 +2,10 @@ import Reveal from "./Reveal";
 
 export default function Story() {
   const stories = [
-    { title: "First Phase", desc: "Benar kata mereka, takdir memang menjadi alasan pertemuan. Sebuah pertemuan dan percakapan singkat, yang berujung (Ada cerita apa lagi?)" },
-    { title: "Second Phase", desc: "Seperti pecahan kaca, kami saling merangkai, menembus sekat hingga dekat, 2016 awal pertemuan sampai 2026 semua proses itu kami mau dan mampu jalan diatas takdir." },
-    { title: "Third Phase", desc: "Putus nyambung komunikasi, Ragu pernah jadi bayang, tapi keteduhan dan sandaran adalah penolong dalam genggaman serta Jatuh cinta berkali kali dengan orang yang sama ini membuat kami merasa utuh dan tumbuh." },
-    { title: "Final Phase", desc: "Kini kami adalah tuan dan puan dengan sisi ego dan kosong yang bertapak diatas permulaan menuju tujuan. Bersama, kami berlayar. Begitulah kami, Kisah singkat yang berakhir Akad." },
+    { title: "First Phase", desc: "Pertemuan ini dimulai dibangku SMA yang dimana kita adalah teman beda angkatan, kemudian ini dekat dan menjalin hubungan pacaran berlangsung cukup lama hingga 6 bulan, kemudian kita berpisah saat arya lulus SMA dan sinta masih kelas 3 SMA" },
+    { title: "Second Phase", desc: "Perpisahan kami berlangsung cukup lama dari 2019 sampai 2023 hingga pertemuan singkat kami bertemu kembali di alfamart" },
+    { title: "Third Phase", desc: "sinta dan arya sempat memulai kisah itu kembali dengan hati yang masih berat, tapi kita memilih untuk masih menjadi teman biasa yang belum intens untuk berkabar setiap hari , kisah kita sudah dimulai dari pertengahan september 2025 ketika konser Dewa 19 di bojonegoro. kemudian kisah kita semakin intens setiap hari, Sepakat bersama, awal februari ketika kita mau sudah saling dekat dan sepakat untuk bisa kejenjang lebih serius, Akhirnya arya memberanikan diri matur dawuh ke bapak sinta di awal maret 2026 dengan perasaan campur aduk matur dawuh berjalan sangat lancar ,perjalanan kami sangat berkesan setiap hari " },
+    { title: "Final Phase", desc: "pada 20 Juli 2026 keluarga dari pihak arya datang untuk meresmikan tanggal untuk pernikahan kami, bukti bahwa pihak arya serius dengan apa yang diatur dawuhkan arya beberapa bulan yang lalu, Mengikat janji, seiring banyaknya semua halang rintang yang kita lalui semua hal yang melelahkan kita bisa berada dititik yang sangat membahagiakan. kisah yang sebenarnya baru dimulai dan perjalanan panjang bersama untuk saling tumbuh dan membersamai" },
   ];
 
   return (

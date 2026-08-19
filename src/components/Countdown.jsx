@@ -2,7 +2,7 @@ import useCountdown from "../hooks/useCountdown";
 import Reveal from "./Reveal";
 
 export default function Countdown() {
-  const { days, hours, minutes, seconds } = useCountdown("2026-07-27 08:00:00");
+  const { days, hours, minutes, seconds } = useCountdown("2026-09-20 08:00:00");
   const base = import.meta.env.BASE_URL;
 
   const units = [
@@ -15,7 +15,7 @@ export default function Countdown() {
   return (
     <section
       className="relative py-24 text-center px-4 sm:px-6 bg-cover bg-center"
-      style={{ backgroundImage: `url('${base}images/6016.jpg')` }}
+      style={{ backgroundImage: `url('${base}images/21.jpeg')` }}
     >
       <div className="absolute inset-0" style={{ background: "rgba(250,247,242,0.82)" }} />
       <div className="relative z-10">

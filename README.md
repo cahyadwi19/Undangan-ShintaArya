@@ -1,4 +1,4 @@
-# Undangan Digital — Khoirul Nisa & Indra Jaya
+# Undangan Digital — Siti Shinta Marini & Arya Dwi Setyawan
 
 Undangan pernikahan digital berbasis React + Vite + Tailwind CSS v4, dengan
 tema **modern dark gold**, animasi transisi (Framer Motion), dan fitur
