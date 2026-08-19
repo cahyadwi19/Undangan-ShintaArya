@@ -2,9 +2,9 @@ import { useState } from "react";
 import Reveal from "./Reveal";
 
 const banks = [
-  { bank: "Bank BCA", norek: "8640663830", atas: "Khoirul Nisa" },
-  { bank: "Bank Mandiri", norek: "9000043025270", atas: "Khoirul Nisa" },
-  { bank: "Bank BRI", norek: "001101182408509", atas: "Khoirul Nisa" },
+  { bank: "Bank BCA", norek: "8240954380", atas: "Siti Shinta Marini" },
+  { bank: "Bank Mandiri", norek: "1780011268949", atas: "Siti Shinta Marini" },
+  { bank: "Bank BRI", norek: "001101169376503", atas: "Siti Shinta Marini" },
 ];
 
 function BankCard({ bank, norek, atas }) {

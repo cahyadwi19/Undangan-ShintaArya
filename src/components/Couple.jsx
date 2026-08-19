@@ -22,11 +22,11 @@ export default function Couple() {
             className="w-full max-w-[280px] sm:max-w-[320px] shadow-xl"
             style={{ border: "4px solid var(--gold-light)" }}
           >
-            <img src={`${base}images/brideman.jpg`} alt="Muhammad Indra Jaya" className="w-full aspect-[3/4] object-cover" />
+            <img src={`${base}images/BridemenArya.jpg`} alt="Arya Dwi Setyawan" className="w-full aspect-[3/4] object-cover" />
           </motion.div>
-          <h3 className="font-script text-4xl mt-7" style={{ color: "var(--gold-deep)" }}>Muhammad Indra Jaya</h3>
+          <h3 className="font-script text-4xl mt-7" style={{ color: "var(--gold-deep)" }}>Arya Dwi Setyawan</h3>
           <p className="font-body mt-3 text-sm tracking-wide text-center opacity-75" style={{ color: "var(--cream)" }}>Putra Pertama dari</p>
-          <p className="font-body text-sm tracking-wide text-center opacity-75" style={{ color: "var(--cream)" }}>Bapak Hasim (Alm.) &amp; Ibu Nunung Setyaningsih</p>
+          <p className="font-body text-sm tracking-wide text-center opacity-75" style={{ color: "var(--cream)" }}>Bapak TARDI &amp; Ibu JUMINI (ALM)</p>
         </Reveal>
 
         <motion.div
@@ -46,11 +46,11 @@ export default function Couple() {
             className="w-full max-w-[280px] sm:max-w-[320px] shadow-xl"
             style={{ border: "4px solid var(--gold-light)" }}
           >
-            <img src={`${base}images/bride.jpg`} alt="Khoirul Nisa" className="w-full aspect-[3/4] object-cover" />
+            <img src={`${base}images/BrideShinta.jpg`} alt="Siti Shinta Marini" className="w-full aspect-[3/4] object-cover" />
           </motion.div>
-          <h3 className="font-script text-4xl mt-7" style={{ color: "var(--gold-deep)" }}>Khoirul Nisa</h3>
+          <h3 className="font-script text-4xl mt-7" style={{ color: "var(--gold-deep)" }}>Siti Shinta Marini</h3>
           <p className="font-body mt-3 text-sm tracking-wide text-center opacity-75" style={{ color: "var(--cream)" }}>Putri Pertama dari</p>
-          <p className="font-body text-sm tracking-wide text-center opacity-75" style={{ color: "var(--cream)" }}>Bapak Suryan &amp; Ibu Rantini</p>
+          <p className="font-body text-sm tracking-wide text-center opacity-75" style={{ color: "var(--cream)" }}>Bapak Tarpin &amp; Ibu Pari Asrini (ALM)</p>
         </Reveal>
       </div>
     </section>

@@ -39,9 +39,9 @@ export default function Cover() {
             className="font-script text-4xl sm:text-7xl text-center leading-tight px-4"
             style={{ color: "var(--gold-deep)" }}
           >
-            Muhammad Indra Jaya
+            Arya Dwi Setyawan
             <span className="block text-4xl sm:text-5xl my-1" style={{ color: "var(--gold)" }}>&</span>
-            Khoirul Nisa
+            Siti Shinta Marini
           </motion.h1>
 
           <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.9, duration: 0.7 }} className="gold-divider my-8" />

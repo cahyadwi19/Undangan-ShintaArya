@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <section
       className="h-screen bg-cover bg-center relative flex items-center justify-center"
-      style={{ backgroundImage: `url('${base}images/cover.jpg')` }}
+      style={{ backgroundImage: `url('${base}images/cover2.jpeg')` }}
     >
       {/* overlay gelap tipis di tengah, cream di bawah untuk transisi ke section berikutnya */}
       <div className="absolute inset-0" style={{ background: "linear-gradient(to bottom, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.35) 40%, rgba(0,0,0,0.15) 70%, rgba(250,247,242,0.85) 100%)" }} />
@@ -24,7 +24,7 @@ export default function Hero() {
           className="font-script text-4xl sm:text-5xl"
           style={{ color: "#fff8f0" }}
         >
-          Muhammad Indra Jaya
+          Arya Dwi Setyawan
         </motion.h1>
 
         <motion.span
@@ -40,7 +40,7 @@ export default function Hero() {
           className="font-script text-4xl sm:text-7xl"
           style={{ color: "#fff8f0" }}
         >
-          Khoirul Nisa
+          Siti Shinta Marini
         </motion.h1>
 
         <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: false }} transition={{ duration: 0.6, delay: 0.7 }} className="gold-divider my-6" />
@@ -50,7 +50,7 @@ export default function Hero() {
           className="font-body text-lg tracking-wide"
           style={{ color: "rgba(255,248,240,0.9)" }}
         >
-          27 Juli 2026
+          20 September 2026
         </motion.p>
 
         <motion.div
