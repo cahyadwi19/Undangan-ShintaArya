@@ -9,6 +9,7 @@ import Event from "./components/Event";
 import Maps from "./components/Maps";
 import Gift from "./components/Gift";
 import RSVP from "./components/RSVP";
+import Footer from "./components/Footer";
 import { AudioProvider } from "./context/AudioContext";
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
       <Maps />
       <Gift />
       <RSVP />
+      <Footer />
     </AudioProvider>
   );
 }

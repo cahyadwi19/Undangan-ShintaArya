@@ -7,8 +7,7 @@ export default function Hero() {
       className="h-screen bg-cover bg-center relative flex items-center justify-center"
       style={{ backgroundImage: `url('${base}images/cover2.jpeg')` }}
     >
-      {/* overlay gelap tipis di tengah, cream di bawah untuk transisi ke section berikutnya */}
-      <div className="absolute inset-0" style={{ background: "linear-gradient(to bottom, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.35) 40%, rgba(0,0,0,0.15) 70%, rgba(250,247,242,0.85) 100%)" }} />
+      <div className="absolute inset-0" style={{ background: "linear-gradient(to bottom, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.4) 40%, rgba(0,0,0,0.2) 70%, rgba(250,246,239,0.9) 100%)" }} />
 
       <div className="relative z-10 h-full flex flex-col justify-center items-center text-center px-6">
         <motion.p
@@ -21,7 +20,7 @@ export default function Hero() {
 
         <motion.h1
           initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: false }} transition={{ duration: 0.9, delay: 0.15 }}
-          className="font-script text-4xl sm:text-5xl"
+          className="font-script text-5xl sm:text-6xl"
           style={{ color: "#fff8f0" }}
         >
           Arya Dwi Setyawan
@@ -29,7 +28,7 @@ export default function Hero() {
 
         <motion.span
           initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: false }} transition={{ duration: 0.6, delay: 0.4 }}
-          className="font-script text-3xl sm:text-2xl my-2"
+          className="font-script text-3xl sm:text-4xl my-2"
           style={{ color: "var(--gold-light)" }}
         >
           &amp;
@@ -37,7 +36,7 @@ export default function Hero() {
 
         <motion.h1
           initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: false }} transition={{ duration: 0.9, delay: 0.5 }}
-          className="font-script text-4xl sm:text-7xl"
+          className="font-script text-4xl sm:text-5xl whitespace-nowrap"
           style={{ color: "#fff8f0" }}
         >
           Siti Shinta Marini

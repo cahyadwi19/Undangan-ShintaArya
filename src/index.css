@@ -1,16 +1,15 @@
 @import "tailwindcss";
 
 :root {
-  --gold: #b76e79;
-  --gold-light: #d4a0a8;
-  --gold-deep: #8b4a55;
-  --navy: #faf7f2;
-  --navy-soft: #f3ede4;
-  --cream: #2c1810;
+  --gold: #c9a84c;
+  --gold-light: #e8cc85;
+  --gold-deep: #9a7a2a;
+  --navy: #faf6ef;
+  --navy-soft: #f2ebe0;
+  --cream: #4a1515;
 }
 
 * { box-sizing: border-box; }
-
 html { scroll-behavior: smooth; }
 
 body {
@@ -20,14 +19,14 @@ body {
   overflow-x: hidden;
 }
 
-.font-script   { font-family: "Great Vibes", cursive; }
+.font-script { font-family: "Great Vibes", cursive; }
 .font-serif-elegant { font-family: "Marcellus", serif; }
-.font-body     { font-family: "Cormorant Garamond", serif; }
+.font-body { font-family: "Cormorant Garamond", serif; }
 
-.text-gold  { color: var(--gold); }
-.bg-gold    { background-color: var(--gold); }
+.text-gold { color: var(--gold); }
+.bg-gold { background-color: var(--gold); }
 .bg-gold-deep { background: linear-gradient(145deg, var(--gold-light), var(--gold-deep)); }
-.bg-navy    { background-color: var(--navy); }
+.bg-navy { background-color: var(--navy); }
 .bg-navy-soft { background-color: var(--navy-soft); }
 
 .gold-divider {
@@ -50,17 +49,20 @@ body {
   opacity: 0.5;
 }
 .ornament-frame::before { top:-8px; left:-8px; border-right:none; border-bottom:none; }
-.ornament-frame::after  { bottom:-8px; right:-8px; border-left:none; border-top:none; }
+.ornament-frame::after { bottom:-8px; right:-8px; border-left:none; border-top:none; }
 
 .bg-texture {
   background-image:
-    radial-gradient(circle at 20% 20%, rgba(183,110,121,0.05) 0%, transparent 45%),
-    radial-gradient(circle at 80% 70%, rgba(183,110,121,0.04) 0%, transparent 45%);
+    radial-gradient(circle at 20% 20%, rgba(107,26,26,0.05) 0%, transparent 45%),
+    radial-gradient(circle at 80% 70%, rgba(201,168,76,0.05) 0%, transparent 45%);
 }
 
-::-webkit-scrollbar       { width: 6px; }
+::-webkit-scrollbar { width: 6px; }
 ::-webkit-scrollbar-track { background: var(--navy); }
 ::-webkit-scrollbar-thumb { background: var(--gold); border-radius: 10px; }
+::placeholder {
+  color: rgba(74, 21, 21, 0.45);
+}
 
 @keyframes spin-slow { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
 .animate-spin-slow { animation: spin-slow 3s linear infinite; }

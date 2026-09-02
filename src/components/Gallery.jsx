@@ -4,7 +4,7 @@ import Reveal from "./Reveal";
 
 export default function Gallery() {
   const base = import.meta.env.BASE_URL;
-  const images = [`${base}images/1.png`, `${base}images/2.png`, `${base}images/3.jpeg`,`${base}images/4.jpeg`,`${base}images/5.jpeg`,`${base}images/6.jpeg`,`${base}images/7.jpeg`,`${base}images/8.jpeg`,`${base}images/9.jpeg`,`${base}images/10.jpeg`,`${base}images/11.jpeg`, `${base}images/12.jpeg`, `${base}images/13.jpeg`,`${base}images/14.jpeg`,`${base}images/15.jpeg`,`${base}images/16.jpeg`,`${base}images/17.jpeg`,`${base}images/18.jpeg`,`${base}images/19.jpeg`,`${base}images/20.jpeg`];
+  const images = [`${base}images/1.png`, `${base}images/3.jpeg`,`${base}images/5.jpeg`,`${base}images/7.jpeg`,`${base}images/9.jpeg`,,`${base}images/11.jpeg`, `${base}images/12.jpeg`, `${base}images/13.jpeg`,`${base}images/14.jpeg`,`${base}images/15.jpeg`,`${base}images/17.jpeg`,`${base}images/19.jpeg`,`${base}images/20.jpeg`,`${base}images/21.jpeg`];
   const [selected, setSelected] = useState(null);
 
   return (

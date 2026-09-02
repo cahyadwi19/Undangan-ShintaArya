@@ -37,10 +37,19 @@ export default function RSVP() {
     setForm({ nama: "", kehadiran: "", ucapan: "" });
   };
 
-  const inputStyle = { backgroundColor: "transparent", border: "1px solid var(--gold-light)", color: "var(--cream)", borderRadius: "0.5rem", padding: "0.75rem", width: "100%", fontFamily: "Cormorant Garamond, serif", outline: "none" };
+  const inputStyle = { 
+    backgroundColor: "transparent", 
+    border: "1px solid var(--gold)", 
+    color: "var(--cream)", 
+    borderRadius: "0.5rem", 
+    padding: "0.75rem", 
+    width: "100%", 
+    fontFamily: "Cormorant Garamond, serif", 
+    outline: "none" };
 
   return (
     <section className="py-24 bg-navy-soft bg-texture px-6">
+  
       <Reveal>
         <div className="text-center mb-12">
           <p className="font-serif-elegant text-xs tracking-[4px] uppercase mb-3" style={{ color: "var(--gold)" }}>Doa &amp; Restu</p>
