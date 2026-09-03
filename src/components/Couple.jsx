@@ -26,7 +26,7 @@ export default function Couple() {
           </motion.div>
           <h3 className="font-script text-4xl mt-7" style={{ color: "var(--gold-deep)" }}>Arya Dwi Setyawan</h3>
           <p className="font-body mt-3 text-sm tracking-wide text-center opacity-75" style={{ color: "var(--cream)" }}>Putra Kedua dari</p>
-          <p className="font-body text-sm tracking-wide text-center opacity-75" style={{ color: "var(--cream)" }}>Bapak TARDI &amp; Ibu JUMINI (ALM)</p>
+          <p className="font-body text-sm tracking-wide text-center opacity-75" style={{ color: "var(--cream)" }}>Bapak Tardi &amp; Ibu Jumini (ALM)</p>
         </Reveal>
 
         <motion.div
