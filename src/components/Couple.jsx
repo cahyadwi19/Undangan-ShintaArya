@@ -49,7 +49,7 @@ export default function Couple() {
             <img src={`${base}images/BrideShinta.jpeg`} alt="Siti Shinta Marini" className="w-full aspect-[3/4] object-cover" />
           </motion.div>
           <h3 className="font-script text-4xl mt-7" style={{ color: "var(--gold-deep)" }}>Siti Shinta Marini</h3>
-          <p className="font-body mt-3 text-sm tracking-wide text-center opacity-75" style={{ color: "var(--cream)" }}>Putri Pertama dari</p>
+          <p className="font-body mt-3 text-sm tracking-wide text-center opacity-75" style={{ color: "var(--cream)" }}>Putri Kedua dari</p>
           <p className="font-body text-sm tracking-wide text-center opacity-75" style={{ color: "var(--cream)" }}>Bapak Tarpin &amp; Ibu Pari Asrini (ALM)</p>
         </Reveal>
       </div>
