@@ -18,7 +18,7 @@ export default function Cover() {
           transition={{ duration: 0.9, ease: "easeInOut" }}
           className="fixed inset-0 z-50 flex flex-col justify-end items-center overflow-hidden"
           style={{
-            backgroundImage: `url('${base}images/coverbaru.jpeg')`,
+            backgroundImage: `url('${base}images/coverbaru1.jpg')`,
             backgroundSize: "cover",
             backgroundPosition: "center top",
           }}
